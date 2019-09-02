@@ -3,7 +3,7 @@ A collection of notes on Digital Talent Scholarship Online Academy Artifical Int
 Contributions are always welcome!
 
 
-## Cloud Practitioner Essentials (Second Edition)
+# Cloud Practitioner Essentials (Second Edition)
 
 # Course 1: Introduction to the AWS Cloud
 * Cloud Computing refers to the on-demand delivery of IT resources and applications via the internet.
@@ -46,3 +46,38 @@ Contributions are always welcome!
   * Backup using Snapshots
   * Easy and transparent Encryption
   * Elastic volumes
+
+## Amazon Simple Storage Service (S3)
+* What is Amazon S3?
+  * Managed cloud storage device
+  * Store virtually unlimited number of objects
+  * Access any time, from anywhere
+  * Rich security control
+* Objects (Key, Object, bucket name)
+* Common Use Cases
+  * Storing applications assets
+  * Static web hosting
+  * Backup & Disaster recovery
+  * Staging area for Big data, etc.
+
+## AWS Global Infrastructure
+* Region
+* Availability zone: data center on a specific region
+* Edge location: host a content delivery network or CDN
+
+## Amazon Virtual Private Cloud (VPC)
+* Introduction
+  * A private, virtual network in the AWS Cloud
+  * Allows complete control of network configuration
+  * Offers several layers of security controls
+  * Other AWS services deploy into VPC
+* Features
+  * Build upon high availability of AWS Regions and Availability Zones (AZ): lives within a Region, multiple VPCs per account
+  * Subnets: used to divide Amazon VPS
+  * Route tables: control traffic going out of the subnets
+  * Internet Gateway (IGW): allows access to the Internet from Amazon VPC
+  * NAT Gateway: allows private subnet
+  * Network Access Control Lists (NACL): control access the subnets, stateless
+
+## AWS Security Groups
+* Security groups: act as built-in firewalls, control accessibility to instances.
