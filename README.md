@@ -81,3 +81,20 @@ Contributions are always welcome!
 
 ## AWS Security Groups
 * Security groups: act as built-in firewalls, control accessibility to instances.
+
+# Course 3: Integrated Services
+
+## Application Load Balancer
+* is a stated earlier, the second type of load balancer introduced as part of the Elastic Load Balancing Service.
+* Enhanced Features: Supported Protocols, CloudWatch Metrics, Access Logs, Health Checks
+* Additional features:
+  * Path and host-based routing
+  * Native IPv6 support
+  * AWS WAF
+  * Dynamic ports
+  * Deletion protection & request tracing
+* Why use Application Load Balancer? Ability to use containers to host your microservices and route to those applications from a single load balancer.
+* Key terms:
+  * Listeners: a process that checks for connection requests, using the protocol and port that you configure.
+  * Target: a destination for traffic based on the established listener rules.
+  * Target group: each target group routes requests to one or more registered targets using the protocol and port number specified.
