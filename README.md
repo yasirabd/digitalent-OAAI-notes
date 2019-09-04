@@ -156,3 +156,12 @@ Contributions are always welcome!
   * S3: image upload into S3
   * AWS Lambda: A Lambda function is triggered and calls Recognition
   * Recognition retrieves the image from S3 and returns labels
+
+## AWS Elastic Beanstalk
+* is A Platform as a Service
+* Allows quick deployment of your applications
+* Reduces management complexity
+* Keeps control in your hand: instance type, database, update, log files, load balancer
+* Supports a large range of platforms
+* Components, it provides: application service, HTTP service, Operating system, Language interpreter, Host
+* Update your applications as easily as you deployed it
