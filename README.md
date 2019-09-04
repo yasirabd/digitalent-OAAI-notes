@@ -108,3 +108,17 @@ Contributions are always welcome!
   * Launch Configuration (what?): AMI, instance type, security groups, roles
   * Auto Scaling Group (where?): VPC and subnets, load balancer, minimum/maximum instances, desired capacity
   * Auto Scaling Policy (when?): scheduled, on-demand, scale-out policy, scale-in policy
+
+## Amazon Route 53
+* It's a Domain Name System, or DNS, web service designed to provide businesses and developers with a reliable and highly scalable way to route end-users to internet applications.
+* DNS is a translator
+* How does it work?
+  * user search through website example.com -> internet service provider -> Route 53
+  * Route 53 returns IP address 192.0.0.1 -> internet service provider -> user
+* DNS resolution strategies:
+  * Simple routing
+  * Geo-location
+  * Failover
+  * Weighted round robin
+  * Latency-based
+  * Multi-value answer
