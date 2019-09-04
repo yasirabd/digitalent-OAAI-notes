@@ -165,3 +165,34 @@ Contributions are always welcome!
 * Supports a large range of platforms
 * Components, it provides: application service, HTTP service, Operating system, Language interpreter, Host
 * Update your applications as easily as you deployed it
+
+## Amazon Simple Notification Service
+* Flexible, fully managed pub/sub messaging and mobile communications service
+* Coordinates the delivery of messages to subscribing endpoints and clients.
+* Easy to setup, operate and send reliable communications.
+* Decouple and scale microservices, distributed sytems and serverless applications.
+
+## Amazon CloudWatch
+* Monitors your AWS resources and the applications you run on AWS in real time
+* Features:
+  * Collect and track metrics
+  * Collect and monitor log files
+  * Set alarms
+  * Automatically react to changes
+* Components:
+  * Metrics: represents a time-ordered set of data points that are published to CloudWatch
+  * Alarms: watches a single metric.
+  * Events: near real-time system events that describe changes in AWS resources.
+  * Logs: monitor and troubleshoot systems and applications using existing log files.
+  * Dashboard: customizable home pages in the CloudWatch console to monitor your resources in a single view.
+
+## Amazon CloudFront
+* You can leverage multiple locations around the world to deliver your content allowing your users to interact with your applications in a lower latency.
+* CloudFront is a content delivery network (CDN).
+
+## Amazon CloudFormation
+* Simplifies the task of repeatedly and predictably creating groups of related resources that power your applications.
+* Service: fully-managed service, create, update and delete resources in stacks.
+* Components: template file + AWS CloudFormation -> Stack
+  * Template file: resources to provision such as text file, json, yaml.
+* Requirements: template and permission
