@@ -98,3 +98,13 @@ Contributions are always welcome!
   * Listeners: a process that checks for connection requests, using the protocol and port that you configure.
   * Target: a destination for traffic based on the established listener rules.
   * Target group: each target group routes requests to one or more registered targets using the protocol and port number specified.
+
+## Auto Scaling
+* Helps you ensure that you have the correct number of Amazon EC2 instances available to handle the load for you.
+* Auto Scaling adjusting capacity as needed
+* Scalability: to ensure that our workload has enough EC2 resources to meet fluctuating performance requirements
+* Automation: automate EC2 resource provisioning to occur on-demand
+* Components:
+  * Launch Configuration (what?): AMI, instance type, security groups, roles
+  * Auto Scaling Group (where?): VPC and subnets, load balancer, minimum/maximum instances, desired capacity
+  * Auto Scaling Policy (when?): scheduled, on-demand, scale-out policy, scale-in policy
