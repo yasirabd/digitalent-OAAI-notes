@@ -145,3 +145,14 @@ Contributions are always welcome!
   * Easy to administer
   * Available and durable
   * Secure and compliant
+
+## AWS Lambda
+* is an event-driven serverless compute service.
+* is a compute service that lets you run code without provisioning or managing service.
+* Benefits: no servers to manage, continuous scaling, subsecond metering
+* How does it work? Example image recognition
+  * image -> mobile app -> S3 -> AWS Lambda -> Detect Objects and Scenes
+  * mobile app: captures an image
+  * S3: image upload into S3
+  * AWS Lambda: A Lambda function is triggered and calls Recognition
+  * Recognition retrieves the image from S3 and returns labels
