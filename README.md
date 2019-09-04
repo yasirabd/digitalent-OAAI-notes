@@ -122,3 +122,26 @@ Contributions are always welcome!
   * Weighted round robin
   * Latency-based
   * Multi-value answer
+
+## Amazon Relational Database Services (RDS)
+* Challenges:
+  * Server maintenance and energy footprint
+  * Software install and patches
+  * Database backups and high availability
+  * Limits on scalability
+  * Data security
+  * OS install and patches
+* Amazon RDS is a managed that sets up and operates a relational database in the cloud.
+* With Amazon RDS, we only manage application optimization
+* Ability to configure your database instance for high availability with a Multi-AZ deployment
+* Amazon RDS Read Replicas:
+  * Asynchronous replication method used
+  * Offload read queries from the master DB instance
+  * Ideal for read-heavy database workloads
+  * Read replica can be promoted to Master if needed
+* Benefits:
+  * Highly scalable
+  * High performance
+  * Easy to administer
+  * Available and durable
+  * Secure and compliant
