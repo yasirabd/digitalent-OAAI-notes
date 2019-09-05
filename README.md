@@ -196,3 +196,80 @@ Contributions are always welcome!
 * Components: template file + AWS CloudFormation -> Stack
   * Template file: resources to provision such as text file, json, yaml.
 * Requirements: template and permission
+
+# Course 4: AWS Architecture
+
+## The AWS Well-Architecture Framework
+* 5 Pillars: security, reliability, performance efficiency, cost optimization, operational excellence
+* Security Pillar: ability to protect your information systems and assets while delivering business value through risk assessments and mitigation strategies.
+  * Identity and access management (IAM): ensure only authorized and authenticated users are able to access our resources.
+  * Detective controls: identify a potential security incident
+  * Infrastructure protection: ensures that systems and services within our architecture are protected against unintended and unauthorized access.
+  * Data protection: data classification, encryption, protecting data at rest and in transit, data backup, replication and recovery.
+  * Incident response: ensures our architecture is updated to accommodate a timely investigation in recovery.
+* Security Pillar: Design Principles
+  * Implement security at all layers
+  * Enable traceability
+  * Apply principle of least privilege
+  * Focus on securing your system
+  * Automate
+* Reliability Pillar
+  * Recover from issues/failures
+  * Apply best practices in: foundations, change management, failure management
+  * Anticipate, respond, and prevent failures
+* Reliability Pillar: Design Principles
+  * Test recovery procedures
+  * Automatically recover
+  * Scale horizontally
+  * Stop guessing capacity
+  * Manage change in automation
+* Performance Efficiency Pillar
+  * Select customizable solutions
+  * Review to continually innovate
+  * Monitor AWS services
+  * Consider the trade-offs
+* Performance Efficiency Pillar: Design Principles
+  * Democratize advanced technologies
+  * Go global in minutes
+  * Use a serverless architectures
+  * Experiment more often
+  * Have mechanically sympathy
+* Cost Optimization Pillar
+  * Use cost-effective resources
+  * Matching supply with demands
+  * Increase expenditure awareness
+  * Optimize over time
+* Cost Optimization Pillar: Design Principles
+  * Adopt a consumption model
+  * Measure overall efficiency
+  * Reduce spending on data center operations
+  * Analyze and attribute expenditure
+  * Use managed services
+* Operational Excellence Pillar
+  * Manage and automate changes
+  * Respond to events
+  * Define the standards
+
+## Fault Tolerance and High Availability
+* Fault Tolerance: ability of a system to remain operational
+* High Availability: ensure that your systems are always functioning and accessible, and that downtime is minimized as much as possible, without the need for human intervention.
+* High Availability AWS:
+  * multiple servers
+  * availability zones
+  * regions
+  * fault-tolerance services
+* High Availability Service Tools:
+  * Elastic Load Balancers: distribute incoming traffic (loads)
+  * Elastic IP Addresses: are static IP addresses
+  * Route 53: authoritative DNS service
+  * Auto scaling: terminates and launches instances, adjusting capacity
+  * Amazon CloudWatch: distributed statistics gathering systems
+* Fault Tolerant Tools:
+  * Amazon Simple Queue Service: backbone of our fault-tolerant application.
+  * Amazon Simple Storage Service (S3): fault-tolerant data storage
+  * Amazon Relational Database Service (RDS): fault-tolerant relational database
+
+## Web Hosting
+* We can implement web hosting on AWS
+* We can use on-demand provisioning to spin up additional servers so that we can adjust capacity, and only pay for what we use.
+* AWS cloud allows to provision testing fleets only when you need them.
