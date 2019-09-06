@@ -273,3 +273,174 @@ Contributions are always welcome!
 * We can implement web hosting on AWS
 * We can use on-demand provisioning to spin up additional servers so that we can adjust capacity, and only pay for what we use.
 * AWS cloud allows to provision testing fleets only when you need them.
+
+# Course 5: AWS Security
+
+## Introduction to AWS Security
+* Security is of the utmost importance to AWS
+* Keep your data safe:
+  * Resilient infrastructure
+  * High security
+  * Strong safeguards
+* Network security
+  * firewalls
+  * Encryption
+  * Private/dedicated connections
+  * DDoS mitigation
+* Data Encryption
+  * Encryption capabilities
+  * Key management options
+  * Hardware-based cryptographic key storage options
+* Access Control and Management
+  * Identity and Access Management (IAM)
+  * Multi-factor authentication (MFA)
+  * Integration and federation with corporate directories
+  * Amazon Cognito
+  * AWS SSO
+* Monitoring and Logging
+
+## The Shared Responsibility Model
+* Stacks
+  * User Data
+  * Application
+  * Guest OS
+  * (If using EC2, there is a dividing line, you choose the OS)
+  * Hypervisor
+  * Network
+  * Physical
+* AWS is responsible for whatever is below the line, and we responsible for what is above the line
+
+## Identity and Access Management (IAM)
+* User: is a permanent name computer (human/machine)
+* Group: is a collection of users
+* Role: is an operator, authentication. It's a permanent set of credentials. The key is the credentials with a role are temporary.
+* Policy documents: lists the specific API or wildcard group of APIs.
+
+## Amazon Inspector
+* Assesses applications for:
+  * Vulnerabilities
+  * Deviations from best practices
+* Produces a detailed report with:
+  * Security findings
+  * Prioritized steps for remediation
+* Benefits:
+  * Identify application security issues
+  * Integrate security into DevOps
+  * Increase development agility
+  * Leverage AWS security expertise
+  * Streamline security compliance
+  * Enforce security standards
+* Accessing Amazon Inspector:
+  * Console
+  * SDKs
+  * HTTPS API
+  * Command line tools
+* Enables you to:
+  * Quickly and easily assess your AWS resources
+  * Offload security assessments so you can focus on more complex security issues
+  * Gain a deeper understanding of your AWS resources
+
+## AWS Shield
+* is a managed Distributed Denial of Service (DDoS) protection service that safeguards applications running on AWS.
+* Denial of Service (DoS): a deliberate attempt to make your website or application unavailable to users.
+* DDoS: multiple sources are used to attack target; infrastructure and application layers can be affected
+* DDoS mitigation challenges:
+  * Complex setup and implementation
+  * Bandwidth limitations
+  * Manual intervention
+  * Time consuming
+  * Degraded performance
+  * Expensive
+* AWS Shield tiers: standard, advanced
+* AWS Shield Standard
+  * Automatic protection
+  * Quick detection (always-on)
+  * Inline attack mitigation
+  * Self service
+* AWS Shield Advanced
+  * Specialized report
+  * Advanced attack mitigation
+  * Visibility and attack notification
+  * Always-on monitoring
+  * Enhanced detection
+  * DDoS cost protection
+* Benefits:
+  * Seamless integration and deployment
+  * Customizable protection
+  * Cost efficient
+
+## Security Compliance
+* AWS Compliance approach:
+  * AWS responsibility: provide highly-secure and controlled platform, security features
+  * Customer responsibility: Configure IT
+  * Shared responsibility and control
+* AWS shares security information by:
+  * Industry certifications
+  * Publishing security and control practices
+  * Compliance report
+* Assurance programs, AWS provides compliance information and resources:
+  * Certifications/attestations
+  * Legal/regulatory support
+  * Alignments/Frameworks
+* Components:
+  * Risk management: established business plan and process
+  * Control environment: establish and maintain an environment
+  * Information security: designed to protect, publishes security whitepaper
+* Risk management at work
+Image
+* Customer compliance
+Image
+
+# Course 6: Pricing and Support
+
+## Fundamentals of Pricing
+* With AWS you can:
+  * Pay as you go
+  * Pay less when you reserve
+  * Pay even less per unit by using more
+  * Pay even less as AWS grows
+* Reserved instances:
+  * All up-front (AURI)
+  * Partial up-front (PURI)
+  * No upfront payments (NURI)
+* Free usage tier for new customers
+
+## Pricing Details
+* Cost fundamentals:
+  * Pay for compute capacity, storage, outbound data transfer (aggregated)
+  * No charge for inbound data transfer
+* Amazon EC2
+  * Charges only for capacity used
+  * Cost factors: clock-second/hourly billing and instance configuration
+  * Purchase types: on-demand instances, reserved instances, spot instances
+  * OS prices included in instance prices
+* Amazon S3
+  * Storage cost: number and size of objects, type of storage
+  * Cost factors: pricing based on requests and data transfer
+* Amazon EBS
+  * Cost factors: volumes and IOPS (input output operations per second)
+  * Another cost factors: Snapshots (added cost per GB-month), Data transfer
+* Amazon RDS
+  * Cost factors: clock-hour billing, database characteristics, and DB purchase type (on-demand, reserved, provision multiple DB)
+  * Another cost factors: provisioned storage, additional storage, deployment type, data transfer
+* Amazon CloudFront
+  * Cost factors: pricing varies across geographic regions, based on request and data transfer out
+
+## AWS Trusted Advisor
+* Provides best practices (or checks) in for categories: cost optimization, performance, security, and fault tolerance
+* Benefits:
+  * Over 50 millions recommendations
+  * $500M+ in cost savings
+* How Trusted Advisor works
+Image
+
+## AWS Support Plans
+* AWS Support:
+  * Experimenting with AWS
+  * Production use of AWS
+  * Business critical use of AWS
+* Support Plans:
+  * Basic support
+  * Developer support
+  * Business support
+  * Enterprise support
