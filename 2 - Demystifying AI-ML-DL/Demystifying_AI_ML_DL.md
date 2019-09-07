@@ -63,3 +63,26 @@ Image
   * Amazon EMR
   * Spark and SparkML
 * Building Smart Applications with Amazon ML: train model -> evaluate and optimize -> retrieve predictions
+
+## Module 3: What is Deep Learning
+* Learns tasks using artificial neural network (ANN)
+* Uses many layers of non-linear processing units
+* These layers handle different parts of data processing
+* What is NN?
+  * a set of simple mathematical functions that can trained to collectively learn complex functions.
+  * Input layer -> Hidden layers -> Output layer
+  * A Node: activation(weight . input (x) + bias)
+  * Types of NN: Feedforward, recurrent
+* Industry domains
+  * Text analysis
+  * Time series/predictive analysis
+  * Sound analysis
+  * Image analysis
+* Challenge for NN: SCALE
+* Deep Learning on AWS
+  * Amazon Lex (conversational engine)
+  * Amazon Polly (lifelike speech)
+  * Amazon Rekognition (image analysis)
+* DIY: AWS Deep Learning AMIs
+  * Benefits: easy setup, hassle-free configurations, pay for what you use
+  * Getting started: One-click deploy, Launch AWS CloudFormation template
