@@ -14,14 +14,14 @@
 
 ## Introduction to AWS Interfaces
 * Three ways to use AWS:
-  1. AWS management console
+  * AWS management console
     * Navigation
     * Usability
     * Convenient mobile app
-  2. Command Line Interface
+  * Command Line Interface
     * Programming language agnostic
     * Flexibility to create scripts
-  3. SDKs
+  * SDKs
     * Ability to use AWS in existing applications
     * Flexibility to create applications
 * Create your own resources
@@ -273,6 +273,7 @@
 
 ## Introduction to AWS Security
 * Security is of the utmost importance to AWS
+![aws-security](https://github.com/yasirabd/digitalent-OAAI-notes/blob/master/assets/aws-security.PNG "AWS Security")
 * Keep your data safe:
   * Resilient infrastructure
   * High security
@@ -306,6 +307,7 @@
 * AWS is responsible for whatever is below the line, and we responsible for what is above the line
 
 ## Identity and Access Management (IAM)
+![iam](https://github.com/yasirabd/digitalent-OAAI-notes/blob/master/assets/IAM.PNG "IAM")
 * User: is a permanent name computer (human/machine)
 * Group: is a collection of users
 * Role: is an operator, authentication. It's a permanent set of credentials. The key is the credentials with a role are temporary.
@@ -382,9 +384,9 @@
   * Control environment: establish and maintain an environment
   * Information security: designed to protect, publishes security whitepaper
 * Risk management at work
-Image
+![risk-management](https://github.com/yasirabd/digitalent-OAAI-notes/blob/master/assets/risk-management.PNG "Risk Management")
 * Customer compliance
-Image
+![customer-compliance](https://github.com/yasirabd/digitalent-OAAI-notes/blob/master/assets/customer-compliance.PNG "Customer Compliance")
 
 # Module 6: Pricing and Support
 
@@ -427,7 +429,7 @@ Image
   * Over 50 millions recommendations
   * $500M+ in cost savings
 * How Trusted Advisor works
-Image
+![trusted-advisor](https://github.com/yasirabd/digitalent-OAAI-notes/blob/master/assets/trusted-advisor-works.PNG "Trusted Advisor Works")
 
 ## AWS Support Plans
 * AWS Support:
