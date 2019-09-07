@@ -13,10 +13,10 @@
   * Disruption
 * Example: fraud detection, chatbot
 * AI/ML/DL
-Image
+![subset ai/ml/dl](https://github.com/yasirabd/digitalent-OAAI-notes/blob/master/assets/subset-aimldl.PNG "Subsets AI/ML/DL")
 * Machine Learning
   * Data -> Processing with algorithms -> Predictions
-  Image
+  ![machine learning](https://github.com/yasirabd/digitalent-OAAI-notes/blob/master/assets/machine-learning.PNG "Machine Learning")
   * ML can do: make prediction, optimize utility functions, extract hidden data structures, classify data
 * Deep Learning
   * Using artificial neural network
@@ -52,7 +52,7 @@ Image
   * Optimize
   * Adapt
 * Types of Machine Learning Problems
-Image
+![types machine learning](https://github.com/yasirabd/digitalent-OAAI-notes/blob/master/assets/ml-types.PNG "Types of Machine Learning")
   * Supervised: teaches the model by providing a dataset with inputs and outputs
   * Unsupervised: no external teacher or pre-trained data
   * Reinforcement: Input -> agent -> action -> reward feedback to agent
