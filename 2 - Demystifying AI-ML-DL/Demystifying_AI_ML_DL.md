@@ -37,3 +37,29 @@ Image
   * Platforms: Amazon ML, Spark & EMR, Kinesis, Batch, ECS
   * Engines: TensorFlow, Pytorch, Keras, Theano, MXNet, Caffe, CNTK
   * Infrastructures: GPU, CPU, IoT, Mobile
+
+## Module 2: What is Machine Learning
+* ML Use Cases
+  * Fraud Detection: Mine data -> Identify pattern and create labels -> train model -> flag transaction as fraudulent
+  * Content Personalization: use predictive analytics models to recommend items
+  * Targeted marketing: use prior customer activity to choose the most relevant email campaigns for target customers
+  * Categorization: Unstructured content -> ML model -> structured documents
+  * Customer service: analyze social media traffic to route customers to customer care specialists
+* ML Concepts
+  * Predict
+  * Extract
+  * Summarize
+  * Optimize
+  * Adapt
+* Types of Machine Learning Problems
+Image
+  * Supervised: teaches the model by providing a dataset with inputs and outputs
+  * Unsupervised: no external teacher or pre-trained data
+  * Reinforcement: Input -> agent -> action -> reward feedback to agent
+* ML and Smart Applications
+  * Challenges: expertise, scaling, time to operationalize
+* ML Platforms on AWS
+  * Amazon ML
+  * Amazon EMR
+  * Spark and SparkML
+* Building Smart Applications with Amazon ML: train model -> evaluate and optimize -> retrieve predictions
