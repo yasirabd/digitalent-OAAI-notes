@@ -66,3 +66,48 @@ Establish communication with the sensor, collect and transform the data, and sum
   * IAM roles: grant AWS IoT Core access to other AWS services
 
 ## MQTT and AWS IoT Device Registry
+* Message Queuing Telemetry Transport (MQTT): to make connections with remote locations where a 'small code footprint' is required or the network bandwidth is limited.
+* Is a lightweight, open standard messaging protocol
+* Provides bidirectional communication
+* Uses: a publish/subscribe method, MQTT over TLS 1.2
+* AWS IoT Device Registry is a catalog of static metadata and attributes about the devices, such as serial number, manufacture, firmware version, internal identifier, and device capabilities.
+  * Catalog of static device metadata
+  * Storage of records of your devices, their attributes
+  * Repository of the device certificates
+  * Fully managed
+  * Highly scalable
+
+## AWS IoT Rules Engine
+* Is one of the primary methods of filtering and directing communication from AWS IoT Core to other AWS services.
+* Helps IoT Core to interact with AWS services
+* Monitor the MQTT topic stream
+* Rules: use an SQL-like format to filter MQTT messages
+* Remember: grant the rules engine the appropriate IAM role and permission
+
+## Presenting the Data
+* Analyzing the Data
+  * AWS IoT Analytics
+    * IoT data is noisy and contains gaps and false readings
+    * Filter, process, transform, and enrich your data
+    * Store raw data and processed data
+    * Perform ad hoc queries or sophisticated IoT analytics and visualization
+  * IoT Analytics process:
+    * Create Channel and select the data
+    * Configure Pipelines that support transformations
+    * Store it in Data Stores for analysis
+    * Query the dataset
+    * Create visualization
+* Visualizing the data
+  * Amazon QuickSight to visualize data and perform ad hoc analysis.
+* Best Practices
+  * Things:
+    * For things, you should utilize granular device IDs and associate them with the collected and aggregated device data.
+    * For things, have the IoT device create the timestamp instead of when the data is uploaded.
+  * Security:
+    * Provide each device an unique certificate and key pair
+    * Follow the strategy of least privilege
+    * Ensure ClientID and thingName device connections match
+  * Communication:
+    * Consider the frequency that the device sends its data
+  * Visualization:
+    * Strategy should reflect the business outcome's KPIs
